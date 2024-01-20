@@ -1,6 +1,7 @@
 ﻿/* El codigo valida los cambios en el valor de OUTPUT.CARGA_CEMENTO_1
-Si se detectan cambios se realiza acciones en función del nuevo valor
-La clase cValueChange ayuda a gestionar esos cambios esos cambios */
+Si se encuentran cambios se realiza acciones en función del nuevo valor
+La clase cValueChange ayuda a gestionar esos cambios nuevos */
+
 internal class cValueChange
 {
     // Se define la clase cValueChange con dos propiedades publicas del tipo bool
