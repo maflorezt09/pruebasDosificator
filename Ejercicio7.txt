@@ -1,0 +1,37 @@
+QUE ES GIT?
+
+Git es un sistema de control de versiones que facilita la colaboración en proyectos y la gestión descentralizada del código. Actúa como un historial de versiones, proporcionando un almacenamiento eficiente para el código fuente. Su capacidad para trabajar de manera distribuida permite a los equipos realizar modificaciones en paralelo, facilitando la integración de cambios y la obtención de archivos modificados de manera eficiente. En resumen, Git ofrece una solución robusta para el seguimiento de versiones, almacenamiento de código y colaboración en equipo en proyectos de desarrollo.
+
+COMO LO UTILIZA?
+
+Utilizo principalmente la consola de git bash para trabajar con comandos de linea y github para el almacenamiento del repositorio en la nube, ejecutando las siguientes acciones:
+
+1. Configuración Inicial del Repositorio en el Equipo:
+   - Crea un nuevo directorio o selecciona un proyecto existente.
+   - Inicializa un repositorio Git en la carpeta seleccionada mediante el comando git init.
+
+2. Creación de Repositorio en GitHub y Conexión:
+   - En GitHub, crea un nuevo repositorio.
+   - Genera un token de acceso personal en GitHub para autenticar las interacciones entre tu repositorio local y GitHub.
+   - Conecta el repositorio local al repositorio remoto en GitHub mediante el comando git remote add origin <URL_del_repositorio>.
+
+3. Gestión de Archivos Locales:
+   - Utiliza el comando git status en Git Bash para revisar el estado de los archivos locales y las modificaciones pendientes.
+
+4.Añadir Archivos al Área de Staging:
+   - Agrega archivos específicos o todos los archivos al área de staging utilizando el comando git add <nombre_del_archivo> o git add . para todos los archivos.
+
+5. Compromiso de Cambios:
+   - Utiliza git commit -m "Mensaje de commit" para comprometer los cambios al repositorio local. Proporciona un mensaje descriptivo que resuma los cambios realizados.
+
+6. Subir Cambios al Repositorio en GitHub:
+   - Utiliza git push origin master para subir los cambios al repositorio en GitHub. El término master se debe a que es el nombre de la rama principal.
+   
+FUNCIONES QUE MAS UTILIZA?
+
+- git remote add origin
+- git status
+- git add
+- git commit
+- git push
+- git merge
